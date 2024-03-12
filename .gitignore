@@ -1,0 +1,39 @@
+# Laravel specific
+.env
+.env.*
+vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE specific
+.idea/
+.vscode/
+
+# Build files
+public/build/
+public/mix-manifest.json
+public/hot
+
+# Testing
+phpunit.xml
+/tests/
+
+# Logs and backups
+/storage/*.log
+/storage/debugbar/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/storage/logs/
+/storage/backups/
+
+# Other
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+yarn.lock
+yarn.lock.backup
+composer.lock
